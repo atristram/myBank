@@ -1,0 +1,64 @@
+body {
+background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(179,119,51,1) 0%, rgba(45,181,152,1) 100%);
+	margin:0px;
+	height:100%;
+	
+}
+
+html{
+	height: 100%;
+}
+
+
+input[type=submit], input[type=reset] {
+	background-color: #4CAF50;
+	border: none;
+	color: white;
+	padding: 15px 25px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 14px;
+	margin: 4px 2px;
+	cursor: pointer;
+}
+
+.btn-link {
+	background-color: #4CAF50;
+	border: none;
+	color: white;
+	padding: 5px 5px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 12px;
+	margin: 4px 2px;
+	cursor: pointer;
+}
+
+h1 {
+	color: white;
+}
+
+article {
+    min-height: 100%;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    background-color: #45a1ff;
+    color: #fff;
+	width:100%;
+}
+
+#container {
+    height: 150px;/*Only for the demo.*/
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
